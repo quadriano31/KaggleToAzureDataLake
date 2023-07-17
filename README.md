@@ -1,6 +1,4 @@
-# exploratory-data-analysis-with-PySpark
- 
-# Using Kaggle API to upload parquet dataset file to Azure Data Lake Storage Gen2 
+ # Upload Kaggle dataset file to Azure Data Lake Storage Gen2 using Kaggle API
 
 This Python script allows you to use Kaggle python warpper to download dataset and upload a Parquet file to Azure Data Lake Storage Gen2.
 
