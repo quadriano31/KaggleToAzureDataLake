@@ -34,8 +34,4 @@ def download_dataset(dataset_name, destination_dir):
     except Exception as e:
         logging.info(f"Error occurred while downloading the dataset: {str(e)}")
 
-if __name__ == '__main__':
-    dataset_name = "amitanshjoshi/spotify-1million-tracks"  # Replace with the desired dataset name
-    destination_dir = "data/"  # Replace with the desired destination directory
-    download_dataset(dataset_name, destination_dir)
 
