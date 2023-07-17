@@ -20,10 +20,9 @@ pip install -r requirements.txt
 ```
 
 3. Environment variables
-  - `AZURE_STORAGE_ACCOUNT_NAME`: Name of the Azure Storage account
-  - `AZURE_FILE_SYSTEM_NAME`: Name of the file system in Azure Data Lake Storage Gen2
-  - `AZURE_DIRECTORY_NAME`: Name of the directory within the file system
-  - `LOCAL_FILE_TO_UPLOAD`: Local path of the Parquet file to upload
+  - `AZURE_CLIENT_ID`: Azure AD client ID
+  - `AZURE_TENANT_ID`: Azure AD tenant ID
+  - `AZURE_CLIENT_SECRET`: Azure AD client secret
 
 ### Run application
 ​
