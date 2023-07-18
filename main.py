@@ -30,6 +30,7 @@ if __name__ == "__main__":
         create_file_system(file_system=file_system)
         create_directory(directory_name=directory_name)
         upload_file_to_directory_bulk(file_system=file_system,directory_name=directory_name,file_path=file_path)
+        logging.info("loaded parquet file succesfully")
     except Exception as e:
         logging.info(e)
 
